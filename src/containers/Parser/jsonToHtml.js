@@ -1,5 +1,6 @@
 import { stringify } from 'himalaya';
 import prettifyHtml from 'prettify-html';
+import * as cssbeautify from "cssbeautify";
 
 const transformJsonIntoHtml = (input) => {
   let result = input;
@@ -12,6 +13,18 @@ const transformJsonIntoHtml = (input) => {
 
   // prettify the html code
   result = prettifyHtml(result);
+
+  // if it's a css, then beautify it
+  if (result.startsWith('<style>') && result.endsWith('</style>')) {
+    result = result.replace('<style>', '');
+    result = result.replace('</style>', '');
+    result = cssbeautify(result, {
+      indent: '  ',
+      openbrace: 'separate-line',
+      autosemicolon: true,
+    });
+    result = `<style>\n${result}\n</style>`;
+  }
 
   return result;
 };
