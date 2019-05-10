@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "himalaya": "^1.1.0",
+    "prettify-html": "^0.0.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
