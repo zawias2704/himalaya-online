@@ -4394,9 +4394,10 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
-"himalaya@git+ssh://git@github.com/PiwikPRO/PPMS-ConsentManager-himalaya.git#dist/2.0.3":
-  version "2.0.3"
-  resolved "git+ssh://git@github.com/PiwikPRO/PPMS-ConsentManager-himalaya.git#55b7e5947f0c567053abfb57c8e6aa0225395672"
+himalaya@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/himalaya/-/himalaya-1.1.0.tgz#31724ae9d35714cd7c6f4be94888953f3604606a"
+  integrity sha512-LLase1dHCRMel68/HZTFft0N0wti0epHr3nNY7ynpLbyZpmrKMQ8YIpiOV77TM97cNpC8Wb2n6f66IRggwdWPw==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -5845,9 +5846,9 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
 
 lodash.merge@^4.4.0:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
-  integrity sha512-AOYza4+Hf5z1/0Hztxpm2/xiPZgi/cjMqdnKTUWTBSKchJlxXXuUSxCCl8rJlf4g6yww/j6mA8nC8Hw/EZWxKQ==
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash.pick@^4.2.1:
   version "4.4.0"
